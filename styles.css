@@ -1,0 +1,39 @@
+.logo{
+    width: 150px;
+}
+.nav-item{
+    background-color: black;
+}
+.nav-link{
+    color: white
+}
+.menu{
+    text-align: center;
+}
+
+#buscar{
+    width: 500px;
+    background-color: purple;
+}
+.carousel-inner{
+    margin: 0,0,0,00px;
+
+}
+#carouselExampleControls{
+    margin-left: 20px;
+}
+#tablaMenu{
+    margin-left: 20px;
+}
+#mejoresTarifas{
+    margin-left: 20px;;
+}
+#descargaapp{
+    float: right;
+
+}
+
+footer{
+    background-color: black;
+    color: white
+}
