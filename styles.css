@@ -1,11 +1,14 @@
 .logo{
-    width: 150px;
+    width: 200px;
 }
 .nav-item{
     background-color: black;
 }
 .nav-link{
     color: white
+}
+header{
+    background-color: black;
 }
 .menu{
     text-align: center;
@@ -28,12 +31,26 @@
 #mejoresTarifas{
     margin-left: 20px;;
 }
-#descargaapp{
-    float: right;
+.card{
+    min-height: 400px;
+    max-height: 400px;
+}
+.fas .fa-envelope-open-text{
+    width: 500px;
+}
+#suscribirme{
+    background-color: purple;
+    display: flex;
+    align-self: center;
+}
+#descargas{
+    margin-left: 900px;
 
 }
 
 footer{
     background-color: black;
-    color: white
+    color: white;
+    text-align: center;
+    width: 100%;
 }

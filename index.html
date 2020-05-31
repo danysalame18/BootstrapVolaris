@@ -7,6 +7,7 @@
     <link rel="icon" href="avion.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -18,18 +19,20 @@
        <div>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                <a class="nav-link" href="#">Registrarse</a>
+                <a class="nav-link" href="#">Buscar</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Moneda</a>
+                <a class="nav-link" href="#">ESP/$MXN</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Ingresar</a>
+                <a class="nav-link" href="#">Iniciar Sesion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mail.html">Registro</a>
+                  </li>
                
             </ul>
-        </div>
 
-        <div>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
                 <a class="nav-link" href="#">Reservar</a>
@@ -57,7 +60,10 @@
 
         </nav>
     </header>
-    
+
+
+    <!--Carrusel-->
+
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -80,7 +86,11 @@
         </a>
       </div>
 
-      <div>
+
+      <!--Opciones de vuelos-->
+
+
+      <div class="container">
         <table class="table table-bordered" id="tablaMenu">
             <thead>
               <tr>
@@ -94,6 +104,8 @@
             </thead>
         </table>
       </div>
+
+      <!--Buscar Vuelo-->
       
       <div class="container">
         <form action="">
@@ -121,6 +133,9 @@
         </form>
       </div>
 
+
+      <!--Mejores Tarifas-->
+
       <br>
       <form>
         <div class="row">
@@ -132,6 +147,9 @@
           </div>
         </div>
       </form>
+
+
+      <!--Cards-->
 
       <br>
       <div class="row">
@@ -174,21 +192,193 @@
                 <a href="#" class="btn btn-primary">$459</a>
               </div>
             </div>
+            <br><br>
           </div>
-        
-          <div>
-          <div class="descarga">
-              <h6 id="descargaapp">Descarga nuestra apllicacion</h6>
-              <div class="descgp"><img src="googleplay.png" width="150px"></div>
-              <div class="desas"><img src="appstore.png" width="130px"></div>
 
+          <!--Suscripcion-->
+
+          <div class="container">
+            <div class="row">
+            <div class="col-2">
+              <p><i class="fas fa-envelope-open-text"></i>Suscribirme al boletín Volaris para recibir promociones exclusivas en mi correo electrónico</p>
+            </div>
+            <div class="col-2">
+              <input type="mail" placeholder="Mail" class="form-control" />
+            </div>
+            <div class="col-2"><button type="button" class="btn btn-secondary" id="suscribirme">Suscribirme</button>
+            </div>
           </div>
         </div>
+        </form>
+
+        <!--Imagenes-->
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <img src="empaqueta.jpg" class="img-thumbnail">
+            </div>
+            <div class="col-4">
+              <img src="renta.jpg" class="img-thumbnail">
+            </div>
+            <div class="col-4">
+              <img src="hotel.jpg" class="img-thumbnail">
+            </div>
+           </div>
+        </div>
+
+          <!--Tablas-->
+
+          <!--Tabla 1-->
+
+          <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <br><br>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Nuestra Rutas</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Vuelos a Cd. de Mexico</td>
+                  <td>Vuelos a Los Angeles</td>
+                </tr>
+                <tr>
+                  <td>Vuelos a Monterrey</td>
+                  <td>Vueos a Nueva York</td>
+                </tr>
+                <tr>
+                  <td>Vuelos a Guadalajara</td>
+                  <td>Vuelos a Las Vegas</td>
+                </tr>
+                <tr>
+                  <td>Vuelos a Tijuana</td>
+                  <td>Vuelos a Miami</td>
+                </tr>
+                <tr>
+                  <td>Vuelos a Puerto Vallarta</td>
+                  <td>Vuelos a San Francisco</td>
+                </tr>
+                <tr>
+                  <td>Vueos a Cancun</td>
+                  <td>Vuelos a Costa Rica</td>
+                </tr>
+                <tr>
+                  <td>Vuelos a Mazatlan</td>
+                  <td>Vuelos Guatemala</td>
+
+                </tr>
+                </tbody>
+
+            </table>
+          </div>
+
+
+          <!--Tabla 2-->
+
+
+          <div class="col-md-4">
+            <br><br>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Preguntas Fracuentes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Generar tu pase de abordar</td>
+                  <td>Tarjetas INVEX</td>
+                </tr>
+                <tr>
+                  <td>Destinos Volaris</td>
+                  <td>Servicios Especiales</td>
+                </tr>
+                <tr>
+                  <td>Facturacion Eletronica</td>
+                  <td>Tips para comprar barato</td>
+                </tr>
+                <tr>
+                  <td>Opciones de Pago</td>
+                  <td>Politica de equipaje</td>
+                </tr>
+                <tr>
+                  <td>Pagos diferidos</td>
+                  <td>Protocolo de bioseguridad</td>
+                </tr>
+                <tr>
+                  <td>Conoce yavas.com</td>
+                  <td>Cancela tu vuelo</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+          <!--Tabla 3-->
+
+
+          <div class="col-md-4">
+            <br><br>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Sobre Volaris</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>GUnete al equipo</td>
+                  <td>revista V de Volaris</td>
+                </tr>
+                <tr>
+                  <td>Relacion con inversionistas</td>
+                  <td>Mapa del sitio</td>
+                </tr>
+                <tr>
+                  <td>Responsabilidad Social</td>
+                  <td>Sala de prensa</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+
+          </div>
+
+
+          <!--Descargas-->
+
+
+          <div>
+          <table id="descargas">
+            <thead</thead>
+            <tr>
+                <td>Descarga nuestra app</td>
+            </tr>
+            <tr>
+                <td><img src="googleplay.png" width="150px"></td>
+                <td><img src="appstore.png" width="130px"></td>
+            </tr>
+            <tr>
+                <td>Escribenos</td>
+            </tr>
+            <tr>
+              <td><i class="fab fa-facebook"></i><i class="fab fa-twitter"></i></td>
+              <td></i><i class="fab fa-instagram"></i><i class="fab fa-linkedin"></i></td>
+          </tr>
+        </table>
+        </div>
+
+      
         
 
+         <!--Footer-->
          
-         
-         <footer> 2020 Volaris y su logotipo son marcas comerciales de Volaris y MLP</footer>
+        <footer> 2020 Volaris y su logotipo son marcas comerciales de Volaris y MLP</footer>
        
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
