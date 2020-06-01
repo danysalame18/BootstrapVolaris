@@ -19,16 +19,44 @@
        <div>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                <a class="nav-link" href="#">Buscar</a>
+                <a class="nav-link" href="#"><i class="fas fa-search-plus"></i></a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">ESP/$MXN</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Iniciar Sesion</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="mail.html">Registro</a>
+                <!--<li class="nav-item">
+                  <a class="nav-link" href="mail2.html">Registro</a>
+                  </li>-->
+                  <li>
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Entrar
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <form class="px-4 py-3">
+                            <div class="form-group">
+                              <label for="exampleDropdownFormEmail1">Email</label>
+                              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleDropdownFormPassword1">Contraseña</label>
+                              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                              <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                <label class="form-check-label" for="dropdownCheck">
+                                  Recordarme
+                                </label>
+                              </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Entrar</button>
+                          </form>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Eres nuevo?? Registrate</a>
+                          <a class="dropdown-item" href="#">Olvidaste tu contraseña??</a>
+                        </div> 
+                    </div>
                   </li>
                
             </ul>
@@ -108,7 +136,6 @@
       <!--Buscar Vuelo-->
       
       <div class="container">
-        <form action="">
           <div class="row">
             <div class="col-3">
               <input type="text" placeholder="Origen" class="form-control" />
@@ -230,14 +257,14 @@
 
           <!--Tabla 1-->
 
-          <div class="container">
-          <div class="row">
+          <!--<div class="container">-->
+          <!--<div class="row">-->
             <div class="col-md-4">
               <br><br>
             <table class="table table-bordered">
               <thead>
                 <tr>
-                  <th>Nuestra Rutas</th>
+                  <th>Nuestras Rutas</th>
                 </tr>
               </thead>
               <tbody>
@@ -271,8 +298,8 @@
 
                 </tr>
                 </tbody>
-
             </table>
+            <button type="button" class="btn btn-link">Ver todas nuestra rutas</button>
           </div>
 
 
@@ -314,6 +341,7 @@
                 </tr>
               </tbody>
             </table>
+            <button type="button" class="btn btn-link">Ver todo</button>
           </div>
 
 
@@ -330,8 +358,8 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>GUnete al equipo</td>
-                  <td>revista V de Volaris</td>
+                  <td>Unete al equipo</td>
+                  <td>Revista V de Volaris</td>
                 </tr>
                 <tr>
                   <td>Relacion con inversionistas</td>
@@ -343,6 +371,7 @@
                 </tr>
               </tbody>
             </table>
+            <button type="button" class="btn btn-link">Ver mas informacion</button>
           </div>
 
         </div>
@@ -367,8 +396,10 @@
                 <td>Escribenos</td>
             </tr>
             <tr>
-              <td><i class="fab fa-facebook"></i><i class="fab fa-twitter"></i></td>
-              <td></i><i class="fab fa-instagram"></i><i class="fab fa-linkedin"></i></td>
+              <td class="icon"><i class="fab fa-facebook"></i></td>
+              <td class="icon"><i class="fab fa-twitter"></i></td>
+              <td class="icon"><i class="fab fa-instagram"></i></td>
+              <td class="icon"><i class="fab fa-linkedin"></i></td>
           </tr>
         </table>
         </div>

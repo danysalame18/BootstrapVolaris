@@ -13,7 +13,12 @@ header{
 .menu{
     text-align: center;
 }
-
+#dropdownMenu2{
+    background-color: black;
+}
+.btn-primary{
+    background-color: purple;
+}
 #buscar{
     width: 500px;
     background-color: purple;
@@ -47,7 +52,9 @@ header{
     margin-left: 900px;
 
 }
-
+.btn-link{
+    color: purple;
+}
 footer{
     background-color: black;
     color: white;
